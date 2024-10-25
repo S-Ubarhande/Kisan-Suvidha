@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            color: black;
+            font-family: georgia, serif;
+            margin: 0%;
+        }
+        body {
+            background: linear-gradient(191deg, rgba(2,0,36,1) 0%, rgba(250,122,16,1) 0%, rgba(145,151,104,1) 100%, rgba(0,212,255,1) 100%);
+            border: 5px solid black;
+        }
+        header {
+            display: flex;
+            height: 80px;
+            background-color: rgb(247, 106, 6);
+            text-align: center;
+            font-size: 50px;
+            padding: 12px;
+            border: 5px double black;
+        }
+        .header-text {
+            width: 50%;
+            margin: auto;
+        }
+        .border {
+            border: 2px solid transparent;
+        }
+        .border:hover {
+            border-color: white;
+        }
+        div {
+            padding: 15px 15px 0px 15px ;
+        }  
+        .create-acc {
+            padding: 50px 30px 30px 30px;
+            margin: 60px auto;
+            height: 370px;
+            max-width: 500px;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+        h2 {
+            margin: 15px;
+        }
+        button {
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            background-color: rgb(86, 86, 237);
+        }
+        button:hover {
+            background-color: rgb(247, 106, 6);
+        }
+        footer {
+            height: 30px;
+            background-color: rgba(58, 56, 56, 0.647);
+            border-top: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            font-weight: 600;
+        }    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="home-img border">
+            <a href="index.html" style="text-align: left;"><i class='bx bx-home'></i></a>
+        </div>
+        <div class="header-text">
+            User
+        </div>
+    </header>
+
+    <div class="create-acc">
+        <h2> Creat Account </h2><br>
+        <big>Name</big> : <input type="text" name="Name" placeholder="Enter Name" required><br><br>
+
+        <big>Email</big> : <input type="text" name="Email" placeholder="Enter Email" required><br><br>
+
+        <big>Password</big> : <input type="text" name="Password" placeholder="Enter Password" required><br><br>
+
+        <big>Confirm Password</big> : <input type="text" name="Con-Password" placeholder="Re-enter Password" required><br><br>
+
+        <div>
+            <button type="submit"> Creat Account </button>
+        </div>
+        <div>
+            <h5>Already have account ? <a href="log.html" style="color: blue;">Log in</a></h5>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>
+                <i class='bx bx-copyright'></i> 2024 Kisan Suvidha. All rights reseved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
